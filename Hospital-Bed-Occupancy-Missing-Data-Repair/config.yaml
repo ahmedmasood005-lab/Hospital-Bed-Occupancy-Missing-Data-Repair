@@ -1,0 +1,16 @@
+project:
+  random_state: 42
+  benchmark_rows: 1600
+  chronological_test_size: 0.25
+  high_occupancy_threshold_pct: 85.0
+data:
+  generated_records: 17520
+  date_start: "2024-01-01"
+  date_periods: 365
+imputation:
+  artificial_benchmark_mask_rate: 0.12
+  knn_neighbors: 5
+  mice_max_iterations: 10
+modeling:
+  cross_validation_folds: 3
+  primary_selection_metric: macro_f1

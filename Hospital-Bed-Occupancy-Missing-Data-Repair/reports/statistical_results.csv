@@ -1,0 +1,23 @@
+test,comparison,statistic,p_value,effect_size
+Shapiro-Wilk,Normality of Bed_Occupancy_Rate,0.9928993472076877,4.291296762322186e-15,
+Kolmogorov-Smirnov,Normality of Bed_Occupancy_Rate,0.02032759060463335,0.03165955877785831,
+Anderson-Darling,Normality of Bed_Occupancy_Rate,5.2694762882765644,,
+Pearson Correlation,Admissions vs Bed_Occupancy_Rate,0.1631506626022226,8.7032038858506e-105,0.02661813870754428
+Spearman Correlation,Admissions vs Bed_Occupancy_Rate,0.15746706383672038,1.1742802010041476e-97,0.024795876193357772
+Pearson Correlation,Discharges vs Bed_Occupancy_Rate,0.12103124767730045,3.635490960744023e-58,0.014648562914324044
+Spearman Correlation,Discharges vs Bed_Occupancy_Rate,0.11532477272182011,6.091800287021844e-53,0.013299803203339464
+Pearson Correlation,Emergency_Cases vs Bed_Occupancy_Rate,0.06468687441366441,1.0301581823765841e-17,0.004184391721409192
+Spearman Correlation,Emergency_Cases vs Bed_Occupancy_Rate,0.06421162178381214,1.778384091602358e-17,0.004123132372107337
+Pearson Correlation,Covid_Cases vs Bed_Occupancy_Rate,0.20639678794081462,7.3060155636769105e-168,0.0425996340722856
+Spearman Correlation,Covid_Cases vs Bed_Occupancy_Rate,0.17700094817130807,2.8075628057846746e-123,0.03132933565354209
+Pearson Correlation,Staff_On_Duty vs Bed_Occupancy_Rate,-0.23889458348364748,7.321486041347893e-226,0.057070622017825416
+Spearman Correlation,Staff_On_Duty vs Bed_Occupancy_Rate,-0.24184544083731566,1.355321607878716e-231,0.05848921725379555
+Pearson Correlation,Available_Beds vs Bed_Occupancy_Rate,-0.8741679911342924,0.0,0.7641696767237643
+Spearman Correlation,Available_Beds vs Bed_Occupancy_Rate,-0.8881765950591064,0.0,0.7888576640107878
+Pearson Correlation,Occupied_Beds vs Bed_Occupancy_Rate,0.31302205089424573,0.0,0.09798280434603976
+Spearman Correlation,Occupied_Beds vs Bed_Occupancy_Rate,0.29579185398408686,0.0,0.08749282088334336
+Pearson Correlation,Average_Length_of_Stay vs Bed_Occupancy_Rate,0.03098601728757686,4.094194831753517e-05,0.000960133267346012
+Spearman Correlation,Average_Length_of_Stay vs Bed_Occupancy_Rate,0.02715690207989847,0.00032441744023754436,0.0007374973305771938
+ANOVA,Occupancy across Departments,1150.186642002942,0.0,0.11607861703157528
+Independent t-test,Holiday vs Non-Holiday Occupancy,8.719026112979128,4.221011118808829e-16,0.5356652687231493
+Mann-Whitney U,Holiday vs Non-Holiday Occupancy,2680547.5,6.199458414259088e-15,-0.29270230516975304

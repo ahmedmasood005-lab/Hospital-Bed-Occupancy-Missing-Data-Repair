@@ -1,0 +1,43 @@
+2026-07-19 15:06:54,684 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:06:58,159 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:16:38,455 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:16:40,598 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:16:49,312 | INFO | hospital_repair | Detecting anomalies, creating engineered data, and rendering EDA.
+2026-07-19 15:20:50,944 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:20:54,256 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:21:01,984 | INFO | hospital_repair | Detecting anomalies, creating engineered data, and rendering EDA.
+2026-07-19 15:24:16,664 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:24:19,900 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:24:27,937 | INFO | hospital_repair | Detecting anomalies, creating engineered data, and rendering EDA.
+2026-07-19 15:24:39,829 | INFO | hospital_repair | Training and evaluating occupancy-risk model candidates.
+2026-07-19 15:25:42,494 | INFO | hospital_repair | Pipeline complete. 17520 records repaired and modeled.
+2026-07-19 15:28:48,906 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:28:50,061 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:28:56,076 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:28:58,047 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:29:17,711 | INFO | hospital_repair | Detecting anomalies, creating engineered data, and rendering EDA.
+2026-07-19 15:29:18,661 | INFO | hospital_repair | Detecting anomalies, creating engineered data, and rendering EDA.
+2026-07-19 15:29:29,087 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:29:30,966 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:29:38,687 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:29:43,907 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:30:09,029 | INFO | hospital_repair | Detecting anomalies, creating engineered data, and rendering EDA.
+2026-07-19 15:30:15,554 | INFO | hospital_repair | Detecting anomalies, creating engineered data, and rendering EDA.
+2026-07-19 15:30:18,138 | INFO | hospital_repair | Training and evaluating occupancy-risk model candidates.
+2026-07-19 15:30:25,956 | INFO | hospital_repair | Training and evaluating occupancy-risk model candidates.
+2026-07-19 15:31:01,966 | INFO | hospital_repair | Training and evaluating occupancy-risk model candidates.
+2026-07-19 15:31:05,684 | INFO | hospital_repair | Training and evaluating occupancy-risk model candidates.
+2026-07-19 15:33:20,194 | INFO | hospital_repair | Pipeline complete. 17520 records repaired and modeled.
+2026-07-19 15:33:21,691 | INFO | hospital_repair | Pipeline complete. 17520 records repaired and modeled.
+2026-07-19 15:33:22,751 | INFO | hospital_repair | Pipeline complete. 17520 records repaired and modeled.
+2026-07-19 15:33:22,771 | INFO | hospital_repair | Pipeline complete. 17520 records repaired and modeled.
+2026-07-19 15:34:04,809 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:34:08,178 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:34:19,503 | INFO | hospital_repair | Detecting anomalies, creating engineered data, and rendering EDA.
+2026-07-19 15:34:34,365 | INFO | hospital_repair | Training and evaluating occupancy-risk model candidates.
+2026-07-19 15:35:25,148 | INFO | hospital_repair | Pipeline complete. 17520 records repaired and modeled.
+2026-07-19 15:50:26,662 | INFO | hospital_repair | Generating complete and missing hospital census datasets.
+2026-07-19 15:50:28,921 | INFO | hospital_repair | Benchmarking twelve imputation strategies on complete reference data.
+2026-07-19 15:50:35,174 | INFO | hospital_repair | Detecting anomalies, creating engineered data, and rendering EDA.
+2026-07-19 15:50:42,818 | INFO | hospital_repair | Training and evaluating occupancy-risk model candidates.
+2026-07-19 15:51:16,973 | INFO | hospital_repair | Pipeline complete. 17520 records repaired and modeled.

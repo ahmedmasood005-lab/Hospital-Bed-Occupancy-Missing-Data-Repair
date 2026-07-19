@@ -1,0 +1,251 @@
+{
+  "records": 17520,
+  "duplicates_removed": 24,
+  "best_imputation_method": "Iterative Imputer (MICE)",
+  "best_model": "Decision Tree",
+  "accuracy": 1.0,
+  "f1_macro": 1.0,
+  "recommendations": [
+    {
+      "feature": "Admissions",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.22916666666666669,
+      "rmse": 5.524980701534754,
+      "mae": 4.418674729610981,
+      "distribution_drift": 1.1861025815782469,
+      "bias": 0.5407734554159676,
+      "absolute_bias": 0.5407734554159676,
+      "variance": 50.12410426082018,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "Available_Beds",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.3125,
+      "rmse": 8.851202183724322,
+      "mae": 4.70574330045643,
+      "distribution_drift": 3.656596663810151,
+      "bias": -0.5961262094090012,
+      "absolute_bias": 0.5961262094090012,
+      "variance": 346.2138721775529,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "Average_Length_of_Stay",
+      "method": "Median",
+      "composite_score": 0.3825,
+      "rmse": 1.1036386316030562,
+      "mae": 0.8922395833333333,
+      "distribution_drift": 0.8922395833333336,
+      "bias": -0.030677083333333053,
+      "absolute_bias": 0.030677083333333053,
+      "variance": 0.0,
+      "execution_time_seconds": 0.021116300000358024,
+      "downstream_model_accuracy": 0.66
+    },
+    {
+      "feature": "Covid_Cases",
+      "method": "Linear Interpolation",
+      "composite_score": 0.25250000000000006,
+      "rmse": 3.2153377724184344,
+      "mae": 2.4296875,
+      "distribution_drift": 0.7682291666666667,
+      "bias": -0.1328125,
+      "absolute_bias": 0.1328125,
+      "variance": 19.20763934100116,
+      "execution_time_seconds": 0.09353459999965708,
+      "downstream_model_accuracy": 0.6525
+    },
+    {
+      "feature": "Discharges",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.3125,
+      "rmse": 7.053296578498202,
+      "mae": 5.735380893901552,
+      "distribution_drift": 1.5418583595111177,
+      "bias": 0.2830627403500186,
+      "absolute_bias": 0.2830627403500186,
+      "variance": 73.35304538036863,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "Doctors",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.25416666666666665,
+      "rmse": 1.0752112460956567,
+      "mae": 0.8965761876152897,
+      "distribution_drift": 0.36193907948668674,
+      "bias": -0.2527069084908468,
+      "absolute_bias": 0.2527069084908468,
+      "variance": 6.475231145139495,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "Emergency_Beds",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.2941666666666667,
+      "rmse": 6.9077936901841674,
+      "mae": 3.525006706039809,
+      "distribution_drift": 1.922319624439554,
+      "bias": -0.6523040961214411,
+      "absolute_bias": 0.6523040961214411,
+      "variance": 93.91715541528306,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "Emergency_Cases",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.33416666666666667,
+      "rmse": 6.625954644510148,
+      "mae": 5.241776119122343,
+      "distribution_drift": 3.8612857237488862,
+      "bias": -0.0912661368642597,
+      "absolute_bias": 0.0912661368642597,
+      "variance": 5.6738342906005235,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "General_Beds",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.25083333333333335,
+      "rmse": 9.892730944528445,
+      "mae": 5.004813602736609,
+      "distribution_drift": 3.273483059894222,
+      "bias": -0.8262589402616096,
+      "absolute_bias": 0.8262589402616096,
+      "variance": 1103.027874665482,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "ICU_Beds",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.2425,
+      "rmse": 5.776970963275022,
+      "mae": 3.02657000487832,
+      "distribution_drift": 1.003716864925033,
+      "bias": 0.1752285763694316,
+      "absolute_bias": 0.1752285763694316,
+      "variance": 52.58769539530803,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "Nurses",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.24583333333333335,
+      "rmse": 3.195876547404166,
+      "mae": 2.6059445237231107,
+      "distribution_drift": 0.6759854251235515,
+      "bias": 0.3744266668122967,
+      "absolute_bias": 0.3744266668122967,
+      "variance": 91.70258782049149,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "Occupied_Beds",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.2675,
+      "rmse": 10.4038112428228,
+      "mae": 4.829799605402849,
+      "distribution_drift": 3.0761961209851187,
+      "bias": -0.7072055743201751,
+      "absolute_bias": 0.7072055743201751,
+      "variance": 715.0171466295122,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    },
+    {
+      "feature": "Staff_On_Duty",
+      "method": "Iterative Imputer (MICE)",
+      "composite_score": 0.25416666666666665,
+      "rmse": 4.392299975830455,
+      "mae": 3.3815316082664104,
+      "distribution_drift": 0.9289310687774143,
+      "bias": 0.4298298842314237,
+      "absolute_bias": 0.4298298842314237,
+      "variance": 274.1920604953992,
+      "execution_time_seconds": 0.34527890000026673,
+      "downstream_model_accuracy": 0.6475
+    }
+  ],
+  "missingness": {
+    "base_complete_records": 17520,
+    "raw_records_including_duplicates": 17544,
+    "duplicate_records_injected": 24,
+    "patterns": {
+      "Admissions": {
+        "mechanism": "MCAR",
+        "target_missing_percentage": 7.000000000000001,
+        "realized_missing_rows": 1226,
+        "rule": "Uniform random 7% mask."
+      },
+      "Emergency_Cases": {
+        "mechanism": "MCAR",
+        "target_missing_percentage": 5.0,
+        "realized_missing_rows": 876,
+        "rule": "Uniform random 5% mask."
+      },
+      "Weather": {
+        "mechanism": "MCAR",
+        "target_missing_percentage": 4.0,
+        "realized_missing_rows": 700,
+        "rule": "Uniform random 4% mask."
+      },
+      "Average_Length_of_Stay": {
+        "mechanism": "MAR",
+        "target_missing_percentage": 18.0,
+        "realized_missing_rows": 1051,
+        "rule": "18% among Surgical records; 6% overall-scale MAR pattern."
+      },
+      "Doctors": {
+        "mechanism": "MAR",
+        "target_missing_percentage": 10.0,
+        "realized_missing_rows": 657,
+        "rule": "10% in two high-volume cities."
+      },
+      "City": {
+        "mechanism": "MAR",
+        "target_missing_percentage": 8.0,
+        "realized_missing_rows": 458,
+        "rule": "8% during wet-weather observations."
+      },
+      "Nurses": {
+        "mechanism": "MNAR",
+        "target_missing_percentage": 22.0,
+        "realized_missing_rows": 1146,
+        "rule": "22% of high-nurse-count observations."
+      },
+      "Staff_On_Duty": {
+        "mechanism": "MNAR",
+        "target_missing_percentage": 20.0,
+        "realized_missing_rows": 805,
+        "rule": "20% of high staffing observations."
+      },
+      "Covid_Cases": {
+        "mechanism": "MNAR",
+        "target_missing_percentage": 18.0,
+        "realized_missing_rows": 737,
+        "rule": "18% of high COVID census observations."
+      }
+    },
+    "target_protected": "Bed_Occupancy_Rate is never masked; it remains an outcome label."
+  },
+  "explainability": {
+    "partial_dependence": "D:\\School of Computing Science\\Projects\\Hospital-Bed-Occupancy-Missing-Data-Repair\\outputs\\figures\\partial_dependence.png",
+    "shap": "D:\\School of Computing Science\\Projects\\Hospital-Bed-Occupancy-Missing-Data-Repair\\outputs\\figures\\shap_summary.png"
+  },
+  "test_metrics": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0
+  }
+}

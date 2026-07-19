@@ -1,0 +1,62 @@
+{
+  "base_complete_records": 17520,
+  "raw_records_including_duplicates": 17544,
+  "duplicate_records_injected": 24,
+  "patterns": {
+    "Admissions": {
+      "mechanism": "MCAR",
+      "target_missing_percentage": 7.000000000000001,
+      "realized_missing_rows": 1226,
+      "rule": "Uniform random 7% mask."
+    },
+    "Emergency_Cases": {
+      "mechanism": "MCAR",
+      "target_missing_percentage": 5.0,
+      "realized_missing_rows": 876,
+      "rule": "Uniform random 5% mask."
+    },
+    "Weather": {
+      "mechanism": "MCAR",
+      "target_missing_percentage": 4.0,
+      "realized_missing_rows": 700,
+      "rule": "Uniform random 4% mask."
+    },
+    "Average_Length_of_Stay": {
+      "mechanism": "MAR",
+      "target_missing_percentage": 18.0,
+      "realized_missing_rows": 1051,
+      "rule": "18% among Surgical records; 6% overall-scale MAR pattern."
+    },
+    "Doctors": {
+      "mechanism": "MAR",
+      "target_missing_percentage": 10.0,
+      "realized_missing_rows": 657,
+      "rule": "10% in two high-volume cities."
+    },
+    "City": {
+      "mechanism": "MAR",
+      "target_missing_percentage": 8.0,
+      "realized_missing_rows": 458,
+      "rule": "8% during wet-weather observations."
+    },
+    "Nurses": {
+      "mechanism": "MNAR",
+      "target_missing_percentage": 22.0,
+      "realized_missing_rows": 1146,
+      "rule": "22% of high-nurse-count observations."
+    },
+    "Staff_On_Duty": {
+      "mechanism": "MNAR",
+      "target_missing_percentage": 20.0,
+      "realized_missing_rows": 805,
+      "rule": "20% of high staffing observations."
+    },
+    "Covid_Cases": {
+      "mechanism": "MNAR",
+      "target_missing_percentage": 18.0,
+      "realized_missing_rows": 737,
+      "rule": "18% of high COVID census observations."
+    }
+  },
+  "target_protected": "Bed_Occupancy_Rate is never masked; it remains an outcome label."
+}
